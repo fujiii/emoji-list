@@ -12,7 +12,7 @@ function emojiList() {
 
     let listOptions;
     let listEmojis;
-
+    console.log(1);
     try {
       listOptions = JSON.parse(list.getAttribute('data-emoji-list'));
       listEmojis = getCategoryEmojis(listOptions.category);
