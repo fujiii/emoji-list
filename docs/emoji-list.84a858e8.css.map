@@ -1,0 +1,1 @@
+{"version":3,"sources":["style.css"],"names":[],"mappings":"AAAA,kBACE,oBACF,CAEA,iCACE,6BAA8B,CAC9B,kBACF","file":"emoji-list.84a858e8.css","sourceRoot":"..","sourcesContent":["[data-emoji-list] {\r\n  list-style-type: none;\r\n}\r\n\r\n[data-emoji-list]:not(ul):before {\r\n  content: attr(data-emoji-list);\r\n  margin-right: 2.5px;\r\n}\r\n"]}

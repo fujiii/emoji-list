@@ -1,0 +1,1 @@
+{"version":3,"sources":["node_modules/emoji-html-list/style.css"],"names":[],"mappings":"AAAA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA","file":"emoji-list.e31bb0bc.css","sourceRoot":"..","sourcesContent":["[data-emoji-list] {\r\n  list-style-type: none;\r\n}\r\n\r\n[data-emoji-list]:not(ul):before {\r\n  content: attr(data-emoji-list);\r\n  margin-right: 2.5px;\r\n}\r\n"]}

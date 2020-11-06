@@ -1,15 +1,12 @@
+import './style.css';
+
 function emojiList() {
-  
-  if(document.documentMode) return false;
 
   const lists = document.querySelectorAll('[data-emoji-list]');
 
   for(var i = 0, l = lists.length; i < l; i++) {
 
-    const list = lists[i];    
-
-    list.style.listStyleType = 'none';
-
+    const list = lists[i];
     const listItems = list.querySelectorAll('li');
 
     let listOptions;
@@ -27,7 +24,7 @@ function emojiList() {
       const listItem = listItems[ii];
       const randomEmoji = listEmojis[Math.floor(Math.random() * listEmojis.length)];
       
-      listItem.style.listStyleType = "'" + randomEmoji + " '";
+      listItem.setAttribute('data-emoji-list', randomEmoji);
     }
   }
 }

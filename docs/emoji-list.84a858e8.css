@@ -1,0 +1,2 @@
+[data-emoji-list]{list-style-type:none}[data-emoji-list]:not(ul):before{content:attr(data-emoji-list);margin-right:2.5px}
+/*# sourceMappingURL=emoji-list.84a858e8.css.map */

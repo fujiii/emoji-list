@@ -1,8 +1,12 @@
 {
   "dependencies": {
-    "emoji-html-list": "0.0.2"
+    "emoji-html-list": "0.0.5"
   },
   "devDependencies": {
     "cssnano": "^4.1.10"
+  },
+  "scripts": {
+    "start": "parcel index.html --out-dir docs",
+    "build": "parcel build index.html --out-dir docs --public-url ./"
   }
 }

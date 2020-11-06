@@ -43,7 +43,3 @@ You can specify `category` option, like this:
 ## Possible categories
 
 `animalsAndNature` which is also a default category, `smileysAndPeople`, `foodAndDrinks`, `activities`, `travelAndPlaces`, `objects`, `symbols`
-
-## Notes
-
-Does not support IE.
