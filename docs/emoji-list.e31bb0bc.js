@@ -196,7 +196,6 @@ module.exports = reloadCSS;
 require("./style.css");
 
 function emojiList() {
-  // if(document.documentMode) return false;
   const lists = document.querySelectorAll('[data-emoji-list]');
 
   for (var i = 0, l = lists.length; i < l; i++) {
@@ -282,7 +281,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "63279" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "63654" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
