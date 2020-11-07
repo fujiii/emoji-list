@@ -1,6 +1,6 @@
 {
   "name": "emoji-html-list",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Display random emojis instead of HTML list bullet points on every page refresh!",
   "main": "index.js",
   "scripts": {

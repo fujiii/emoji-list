@@ -36,7 +36,6 @@ pre {
   max-width: calc(100% - 2rem);
   overflow-x: auto;
   border: 1px dashed #b192fd;
-  border-radius: 0.25rem;
 }
 
 .contain {
