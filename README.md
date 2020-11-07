@@ -10,6 +10,8 @@ Display random emojis instead of HTML list bullet points on every page refresh!
 
 Run `npm i emoji-html-list`
 
+Or include `<script src="https://unpkg.com/emoji-html-list@latest/emoji-list.min.js"></script>`
+
 ## Usage
 
 Simply add `data-emoji-list` attribute to HTML list, like this:
